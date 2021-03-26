@@ -23,5 +23,5 @@ Pieces are represented on the board textually using 4 characters. The first lett
 ## Animations
 The following animations demonstrate some functionality of the program when utilizing the terminal GUI.
 
-### Moving the pieces around the board.
+#### Moving the pieces around the board.
 ![](./gifs/moving.gif)
