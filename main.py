@@ -330,7 +330,7 @@ class JanggiGame:
             # If move didn't result in self-check, change turn and print board.
             self._last_killed = None
             self.change_turn()
-            # self.print_board()
+            self.print_board()
 
             # Upon new player turn, test for checkmate condition.
             if self._player_turn == "BLUE" and self._blue_check:
@@ -1512,6 +1512,17 @@ def main():
     Main function to run if file is called directly.
     :return: None
     """
+    g = JanggiGame()
+    g.print_board()
+    print()
+    while g.get_game_state() == "UNFINISHED":
+        if g._player_turn == "BLUE":
+            print("Blue Turn")
+        if g._player_turn == "RED":
+            print("Red Turn")
+        x = input("Input move from: ")
+        y = input("Input move to: ")
+        g.make_move(x, y)
 
 if __name__ == '__main__':
     main()
