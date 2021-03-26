@@ -25,3 +25,9 @@ The following animations demonstrate some functionality of the program when util
 
 #### Moving the pieces around the board.
 ![](./gifs/moving.gif)
+
+#### Capturing an opposing piece.
+![](./gifs/capturing.gif)
+
+#### Ending turn in checkmate declares winner and loop terminates.
+![](./gifs/checkmate.gif)
