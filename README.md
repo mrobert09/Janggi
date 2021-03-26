@@ -19,3 +19,6 @@ Pieces are represented on the board textually using 4 characters. The first lett
 - rSo3 (Red Soldier #3)
 - bGu1 (Blue Guard #1)
 - rCa2 (Red Cannon #2)
+
+## Animations
+The following animations demonstrate some functionality of the program when utilizing the terminal GUI.
